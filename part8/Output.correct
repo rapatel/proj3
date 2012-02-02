@@ -1,0 +1,980 @@
+created 28 Seq
+created 10 For
+created 18 Fib
+r1:{ 1 to 4 by 1 }:
+(Seq)r1 instanceof For:true:
+(Seq)r1 instanceof Fib:false:
+r1.upperBound():4:
+r2:{ 1 to 4 by -1 }:
+(Seq)r2 instanceof For:true:
+(Seq)r2 instanceof Fib:false:
+r2.upperBound():1:
+r3:{ 21 to 23 by 1 }:
+(Seq)r3 instanceof For:true:
+(Seq)r3 instanceof Fib:false:
+r3.upperBound():23:
+r4:{ 25 to 21 by -2 }:
+(Seq)r4 instanceof For:true:
+(Seq)r4 instanceof Fib:false:
+r4.upperBound():25:
+r5:{ 21 to 26 by 2 }:
+(Seq)r5 instanceof For:true:
+(Seq)r5 instanceof Fib:false:
+r5.upperBound():26:
+r6:{ 28 to 26 by 0 }:
+(Seq)r6 instanceof For:true:
+(Seq)r6 instanceof Fib:false:
+r6.upperBound():28:
+r7:{ 28 to 31 by 1 }:
+(Seq)r7 instanceof For:true:
+(Seq)r7 instanceof Fib:false:
+r7.upperBound():31:
+r8:{ 31 to 28 by -1 }:
+(Seq)r8 instanceof For:true:
+(Seq)r8 instanceof Fib:false:
+r8.upperBound():31:
+s6:{ 21 to 26 by 0 }:
+(Seq)s6 instanceof For:true:
+(Seq)s6 instanceof Fib:false:
+s6.upperBound():21:
+s7:{ 26 to 26 by 1 }:
+(Seq)s7 instanceof For:true:
+(Seq)s7 instanceof Fib:false:
+s7.upperBound():26:
+b1:< 2, 3 to 10 >:
+(Seq)b1 instanceof For:false:
+(Seq)b1 instanceof Fib:true:
+b1.upperBound():10:
+b2:< 0, 1 to 10 >:
+(Seq)b2 instanceof For:false:
+(Seq)b2 instanceof Fib:true:
+b2.upperBound():10:
+b3:< 2, 2 to 10 >:
+(Seq)b3 instanceof For:false:
+(Seq)b3 instanceof Fib:true:
+b3.upperBound():10:
+b4:< 2, 2 to 0 >:
+(Seq)b4 instanceof For:false:
+(Seq)b4 instanceof Fib:true:
+b4.upperBound():0:
+b5:< 0, -1 to -10 >:
+(Seq)b5 instanceof For:false:
+(Seq)b5 instanceof Fib:true:
+b5.upperBound():-10:
+b6:< -2, -3 to -10 >:
+(Seq)b6 instanceof For:false:
+(Seq)b6 instanceof Fib:true:
+b6.upperBound():-10:
+b7:< 2, -2 to 3 >:
+(Seq)b7 instanceof For:false:
+(Seq)b7 instanceof Fib:true:
+b7.upperBound():3:
+b8:< 0, 1 to 21 >:
+(Seq)b8 instanceof For:false:
+(Seq)b8 instanceof Fib:true:
+b8.upperBound():21:
+b9:< 2, -1 to 10 >:
+(Seq)b9 instanceof For:false:
+(Seq)b9 instanceof Fib:true:
+b9.upperBound():10:
+c1:< 0, -1 to 10 >:
+(Seq)c1 instanceof For:false:
+(Seq)c1 instanceof Fib:true:
+c1.upperBound():10:
+c2:< 0, 0 to 10 >:
+(Seq)c2 instanceof For:false:
+(Seq)c2 instanceof Fib:true:
+c2.upperBound():10:
+c3:< 0, 0 to -10 >:
+(Seq)c3 instanceof For:false:
+(Seq)c3 instanceof Fib:true:
+c3.upperBound():-10:
+c4:< 0, 0 to 0 >:
+(Seq)c4 instanceof For:false:
+(Seq)c4 instanceof Fib:true:
+c4.upperBound():0:
+c5:< 0, 1 to 0 >:
+(Seq)c5 instanceof For:false:
+(Seq)c5 instanceof Fib:true:
+c5.upperBound():0:
+c6:< 0, -1 to 0 >:
+(Seq)c6 instanceof For:false:
+(Seq)c6 instanceof Fib:true:
+c6.upperBound():0:
+c7:< 1, 0 to 10 >:
+(Seq)c7 instanceof For:false:
+(Seq)c7 instanceof Fib:true:
+c7.upperBound():10:
+c8:< -1, 0 to 10 >:
+(Seq)c8 instanceof For:false:
+(Seq)c8 instanceof Fib:true:
+c8.upperBound():10:
+c9:< -1, 0 to -10 >:
+(Seq)c9 instanceof For:false:
+(Seq)c9 instanceof Fib:true:
+c9.upperBound():-10:
+r1:{ 1 to 4 by 1 }:
+(Seq)r1 instanceof For:true:
+(Seq)r1 instanceof Fib:false:
+r1.upperBound():4:
+r2:{ 1 to 4 by -1 }:
+(Seq)r2 instanceof For:true:
+(Seq)r2 instanceof Fib:false:
+r2.upperBound():1:
+r3:{ 21 to 23 by 1 }:
+(Seq)r3 instanceof For:true:
+(Seq)r3 instanceof Fib:false:
+r3.upperBound():23:
+r4:{ 25 to 21 by -2 }:
+(Seq)r4 instanceof For:true:
+(Seq)r4 instanceof Fib:false:
+r4.upperBound():25:
+r5:{ 21 to 26 by 2 }:
+(Seq)r5 instanceof For:true:
+(Seq)r5 instanceof Fib:false:
+r5.upperBound():26:
+r6:{ 28 to 26 by 0 }:
+(Seq)r6 instanceof For:true:
+(Seq)r6 instanceof Fib:false:
+r6.upperBound():28:
+r7:{ 28 to 31 by 1 }:
+(Seq)r7 instanceof For:true:
+(Seq)r7 instanceof Fib:false:
+r7.upperBound():31:
+r8:{ 31 to 28 by -1 }:
+(Seq)r8 instanceof For:true:
+(Seq)r8 instanceof Fib:false:
+r8.upperBound():31:
+s6:{ 21 to 26 by 0 }:
+(Seq)s6 instanceof For:true:
+(Seq)s6 instanceof Fib:false:
+s6.upperBound():21:
+s7:{ 26 to 26 by 1 }:
+(Seq)s7 instanceof For:true:
+(Seq)s7 instanceof Fib:false:
+s7.upperBound():26:
+b1:< 2, 3 to 10 >:
+(Seq)b1 instanceof For:false:
+(Seq)b1 instanceof Fib:true:
+b1.upperBound():10:
+b2:< 0, 1 to 10 >:
+(Seq)b2 instanceof For:false:
+(Seq)b2 instanceof Fib:true:
+b2.upperBound():10:
+b3:< 2, 2 to 10 >:
+(Seq)b3 instanceof For:false:
+(Seq)b3 instanceof Fib:true:
+b3.upperBound():10:
+b4:< 2, 2 to 0 >:
+(Seq)b4 instanceof For:false:
+(Seq)b4 instanceof Fib:true:
+b4.upperBound():0:
+b5:< 0, -1 to -10 >:
+(Seq)b5 instanceof For:false:
+(Seq)b5 instanceof Fib:true:
+b5.upperBound():-10:
+b6:< -2, -3 to -10 >:
+(Seq)b6 instanceof For:false:
+(Seq)b6 instanceof Fib:true:
+b6.upperBound():-10:
+b7:< 2, -2 to 3 >:
+(Seq)b7 instanceof For:false:
+(Seq)b7 instanceof Fib:true:
+b7.upperBound():3:
+b8:< 0, 1 to 21 >:
+(Seq)b8 instanceof For:false:
+(Seq)b8 instanceof Fib:true:
+b8.upperBound():21:
+b9:< 2, -1 to 10 >:
+(Seq)b9 instanceof For:false:
+(Seq)b9 instanceof Fib:true:
+b9.upperBound():10:
+c1:< 0, -1 to 10 >:
+(Seq)c1 instanceof For:false:
+(Seq)c1 instanceof Fib:true:
+c1.upperBound():10:
+c2:< 0, 0 to 10 >:
+(Seq)c2 instanceof For:false:
+(Seq)c2 instanceof Fib:true:
+c2.upperBound():10:
+c3:< 0, 0 to -10 >:
+(Seq)c3 instanceof For:false:
+(Seq)c3 instanceof Fib:true:
+c3.upperBound():-10:
+c4:< 0, 0 to 0 >:
+(Seq)c4 instanceof For:false:
+(Seq)c4 instanceof Fib:true:
+c4.upperBound():0:
+c5:< 0, 1 to 0 >:
+(Seq)c5 instanceof For:false:
+(Seq)c5 instanceof Fib:true:
+c5.upperBound():0:
+c6:< 0, -1 to 0 >:
+(Seq)c6 instanceof For:false:
+(Seq)c6 instanceof Fib:true:
+c6.upperBound():0:
+c7:< 1, 0 to 10 >:
+(Seq)c7 instanceof For:false:
+(Seq)c7 instanceof Fib:true:
+c7.upperBound():10:
+c8:< -1, 0 to 10 >:
+(Seq)c8 instanceof For:false:
+(Seq)c8 instanceof Fib:true:
+c8.upperBound():10:
+c9:< -1, 0 to -10 >:
+(Seq)c9 instanceof For:false:
+(Seq)c9 instanceof Fib:true:
+c9.upperBound():-10:
+x:< 2, 2 to 10 >:
+(Seq)x instanceof For:false:
+(Seq)x instanceof Fib:true:
+x.upperBound():10:
+x:{ 25 to 21 by -2 }:
+(Seq)x instanceof For:true:
+(Seq)x instanceof Fib:false:
+x.upperBound():25:
+myprintr(r1,10):1 2 3 4 :
+myprintr(r2,10)::
+myprintr(r3,10):21 22 23 :
+myprintr(r4,10):25 23 21 :
+myprintr(r5,10):21 23 25 :
+myprintr(s6,10):21 21 21 21 21 21 21 21 21 21 :
+myprintr(s7,10):26 :
+myprintb(b1,10):2 3 5 8 :
+myprintb(b2,10):0 1 1 2 3 5 8 :
+myprintb(b3,10):2 2 4 6 10 :
+myprintb(b4,10)::
+myprintb(b5,10)::
+myprintb(b6,10)::
+myprintb(b7,10):2 -2 0 -2 -2 -4 -6 -10 -16 -26 :
+myprintb(b8,10):0 1 1 2 3 5 8 13 21 :
+myprintb(b9,10):2 -1 1 0 1 1 2 3 5 8 :
+myprintb(c1,10):0 -1 -1 -2 -3 -5 -8 -13 -21 -34 :
+myprintb(c2,10):0 0 0 0 0 0 0 0 0 0 :
+myprintb(c3,10)::
+myprintb(c4,10):0 0 0 0 0 0 0 0 0 0 :
+myprintb(c5,10):0 :
+myprintb(c6,10):0 -1 -1 -2 -3 -5 -8 -13 -21 -34 :
+myprintb(c7,10):1 0 1 1 2 3 5 8 :
+myprintb(c8,10):-1 0 -1 -1 -2 -3 -5 -8 -13 -21 :
+myprintb(c9,10)::
+mycrossr(r1,r3):
+   1 21
+   1 22
+   1 23
+   2 21
+   2 22
+   2 23
+   3 21
+   3 22
+   3 23
+   4 21
+   4 22
+   4 23
+:
+mycrossr(r1,r1):
+   1 1
+   1 2
+   1 3
+   1 4
+   2 1
+   2 2
+   2 3
+   2 4
+   3 1
+   3 2
+   3 3
+   3 4
+   4 1
+   4 2
+   4 3
+   4 4
+:
+mycrossr(r3,r3):
+   21 21
+   21 22
+   21 23
+   22 21
+   22 22
+   22 23
+   23 21
+   23 22
+   23 23
+:
+mycrossr(r3,r3):
+   21 21
+   21 22
+   21 23
+   22 21
+   22 22
+   22 23
+   23 21
+   23 22
+   23 23
+:
+mycrossr(r1,r2)::
+mycrossr(r2,r2)::
+mycrossr(s7,r4):
+   26 25
+   26 23
+   26 21
+:
+mycrossb(b1,b3):
+   2 2
+   2 2
+   2 4
+   2 6
+   2 10
+   3 2
+   3 2
+   3 4
+   3 6
+   3 10
+   5 2
+   5 2
+   5 4
+   5 6
+   5 10
+   8 2
+   8 2
+   8 4
+   8 6
+   8 10
+:
+mycrossb(b3,b1):
+   2 2
+   2 3
+   2 5
+   2 8
+   2 2
+   2 3
+   2 5
+   2 8
+   4 2
+   4 3
+   4 5
+   4 8
+   6 2
+   6 3
+   6 5
+   6 8
+   10 2
+   10 3
+   10 5
+   10 8
+:
+mycrossb(b1,b1):
+   2 2
+   2 3
+   2 5
+   2 8
+   3 2
+   3 3
+   3 5
+   3 8
+   5 2
+   5 3
+   5 5
+   5 8
+   8 2
+   8 3
+   8 5
+   8 8
+:
+mycrossb(b8,b1):
+   0 2
+   0 3
+   0 5
+   0 8
+   1 2
+   1 3
+   1 5
+   1 8
+   1 2
+   1 3
+   1 5
+   1 8
+   2 2
+   2 3
+   2 5
+   2 8
+   3 2
+   3 3
+   3 5
+   3 8
+   5 2
+   5 3
+   5 5
+   5 8
+   8 2
+   8 3
+   8 5
+   8 8
+   13 2
+   13 3
+   13 5
+   13 8
+   21 2
+   21 3
+   21 5
+   21 8
+:
+mycrossb(b1,b8):
+   2 0
+   2 1
+   2 1
+   2 2
+   2 3
+   2 5
+   2 8
+   2 13
+   2 21
+   3 0
+   3 1
+   3 1
+   3 2
+   3 3
+   3 5
+   3 8
+   3 13
+   3 21
+   5 0
+   5 1
+   5 1
+   5 2
+   5 3
+   5 5
+   5 8
+   5 13
+   5 21
+   8 0
+   8 1
+   8 1
+   8 2
+   8 3
+   8 5
+   8 8
+   8 13
+   8 21
+:
+mycrossb(b2,b3):
+   0 2
+   0 2
+   0 4
+   0 6
+   0 10
+   1 2
+   1 2
+   1 4
+   1 6
+   1 10
+   1 2
+   1 2
+   1 4
+   1 6
+   1 10
+   2 2
+   2 2
+   2 4
+   2 6
+   2 10
+   3 2
+   3 2
+   3 4
+   3 6
+   3 10
+   5 2
+   5 2
+   5 4
+   5 6
+   5 10
+   8 2
+   8 2
+   8 4
+   8 6
+   8 10
+:
+mycrossb(b3,b2):
+   2 0
+   2 1
+   2 1
+   2 2
+   2 3
+   2 5
+   2 8
+   2 0
+   2 1
+   2 1
+   2 2
+   2 3
+   2 5
+   2 8
+   4 0
+   4 1
+   4 1
+   4 2
+   4 3
+   4 5
+   4 8
+   6 0
+   6 1
+   6 1
+   6 2
+   6 3
+   6 5
+   6 8
+   10 0
+   10 1
+   10 1
+   10 2
+   10 3
+   10 5
+   10 8
+:
+mycrossb(b1,b5)::
+mycrossb(b4,b5)::
+si.next():2:
+si.next():3:
+si.next():1:
+si.next():2:
+si.next():1:
+si.next():2:
+si.next():2:
+si.next():2:
+si.next():4:
+si.next():6:
+si.next():10:
+myprint(r1,10):1 2 3 4 :
+myprint(r2,10)::
+myprint(r3,10):21 22 23 :
+myprint(r4,10):25 23 21 :
+myprint(r5,10):21 23 25 :
+myprint(s6,10):21 21 21 21 21 21 21 21 21 21 :
+myprint(s7,10):26 :
+myprint(b1,10):2 3 5 8 :
+myprint(b2,10):0 1 1 2 3 5 8 :
+myprint(b3,10):2 2 4 6 10 :
+myprint(b4,10)::
+myprint(b5,10)::
+myprint(b6,10)::
+myprint(b7,10):2 -2 0 -2 -2 -4 -6 -10 -16 -26 :
+myprint(b8,10):0 1 1 2 3 5 8 13 21 :
+myprint(b9,10):2 -1 1 0 1 1 2 3 5 8 :
+mycross(r1,r3):
+   1 21
+   1 22
+   1 23
+   2 21
+   2 22
+   2 23
+   3 21
+   3 22
+   3 23
+   4 21
+   4 22
+   4 23
+:
+mycross(r1,r1):
+   1 1
+   1 2
+   1 3
+   1 4
+   2 1
+   2 2
+   2 3
+   2 4
+   3 1
+   3 2
+   3 3
+   3 4
+   4 1
+   4 2
+   4 3
+   4 4
+:
+mycross(r3,r3):
+   21 21
+   21 22
+   21 23
+   22 21
+   22 22
+   22 23
+   23 21
+   23 22
+   23 23
+:
+mycross(r3,r3):
+   21 21
+   21 22
+   21 23
+   22 21
+   22 22
+   22 23
+   23 21
+   23 22
+   23 23
+:
+mycross(r1,r2)::
+mycross(r2,r2)::
+mycross(s7,r4):
+   26 25
+   26 23
+   26 21
+:
+mycross(b1,b3):
+   2 2
+   2 2
+   2 4
+   2 6
+   2 10
+   3 2
+   3 2
+   3 4
+   3 6
+   3 10
+   5 2
+   5 2
+   5 4
+   5 6
+   5 10
+   8 2
+   8 2
+   8 4
+   8 6
+   8 10
+:
+mycross(b3,b1):
+   2 2
+   2 3
+   2 5
+   2 8
+   2 2
+   2 3
+   2 5
+   2 8
+   4 2
+   4 3
+   4 5
+   4 8
+   6 2
+   6 3
+   6 5
+   6 8
+   10 2
+   10 3
+   10 5
+   10 8
+:
+mycross(b1,b1):
+   2 2
+   2 3
+   2 5
+   2 8
+   3 2
+   3 3
+   3 5
+   3 8
+   5 2
+   5 3
+   5 5
+   5 8
+   8 2
+   8 3
+   8 5
+   8 8
+:
+mycross(b8,b1):
+   0 2
+   0 3
+   0 5
+   0 8
+   1 2
+   1 3
+   1 5
+   1 8
+   1 2
+   1 3
+   1 5
+   1 8
+   2 2
+   2 3
+   2 5
+   2 8
+   3 2
+   3 3
+   3 5
+   3 8
+   5 2
+   5 3
+   5 5
+   5 8
+   8 2
+   8 3
+   8 5
+   8 8
+   13 2
+   13 3
+   13 5
+   13 8
+   21 2
+   21 3
+   21 5
+   21 8
+:
+mycross(b1,b8):
+   2 0
+   2 1
+   2 1
+   2 2
+   2 3
+   2 5
+   2 8
+   2 13
+   2 21
+   3 0
+   3 1
+   3 1
+   3 2
+   3 3
+   3 5
+   3 8
+   3 13
+   3 21
+   5 0
+   5 1
+   5 1
+   5 2
+   5 3
+   5 5
+   5 8
+   5 13
+   5 21
+   8 0
+   8 1
+   8 1
+   8 2
+   8 3
+   8 5
+   8 8
+   8 13
+   8 21
+:
+mycross(b2,b3):
+   0 2
+   0 2
+   0 4
+   0 6
+   0 10
+   1 2
+   1 2
+   1 4
+   1 6
+   1 10
+   1 2
+   1 2
+   1 4
+   1 6
+   1 10
+   2 2
+   2 2
+   2 4
+   2 6
+   2 10
+   3 2
+   3 2
+   3 4
+   3 6
+   3 10
+   5 2
+   5 2
+   5 4
+   5 6
+   5 10
+   8 2
+   8 2
+   8 4
+   8 6
+   8 10
+:
+mycross(b3,b2):
+   2 0
+   2 1
+   2 1
+   2 2
+   2 3
+   2 5
+   2 8
+   2 0
+   2 1
+   2 1
+   2 2
+   2 3
+   2 5
+   2 8
+   4 0
+   4 1
+   4 1
+   4 2
+   4 3
+   4 5
+   4 8
+   6 0
+   6 1
+   6 1
+   6 2
+   6 3
+   6 5
+   6 8
+   10 0
+   10 1
+   10 1
+   10 2
+   10 3
+   10 5
+   10 8
+:
+mycross(b1,b5)::
+mycross(b4,b5)::
+mycross(r1,b1):
+   1 2
+   1 3
+   1 5
+   1 8
+   2 2
+   2 3
+   2 5
+   2 8
+   3 2
+   3 3
+   3 5
+   3 8
+   4 2
+   4 3
+   4 5
+   4 8
+:
+mycross(b1,r1):
+   2 1
+   2 2
+   2 3
+   2 4
+   3 1
+   3 2
+   3 3
+   3 4
+   5 1
+   5 2
+   5 3
+   5 4
+   8 1
+   8 2
+   8 3
+   8 4
+:
+mycross(s7,b4)::
+mycross(b4,s7)::
+mycross(r2,b8)::
+mycross(b8,r2)::
+mycross(r3,b2):
+   21 0
+   21 1
+   21 1
+   21 2
+   21 3
+   21 5
+   21 8
+   22 0
+   22 1
+   22 1
+   22 2
+   22 3
+   22 5
+   22 8
+   23 0
+   23 1
+   23 1
+   23 2
+   23 3
+   23 5
+   23 8
+:
+mycross(b2,r3):
+   0 21
+   0 22
+   0 23
+   1 21
+   1 22
+   1 23
+   1 21
+   1 22
+   1 23
+   2 21
+   2 22
+   2 23
+   3 21
+   3 22
+   3 23
+   5 21
+   5 22
+   5 23
+   8 21
+   8 22
+   8 23
+:
+created 28 Seq
+created 10 For
+created 18 Fib
+l1:[  ]:
+l1:[ 4 ]:
+l1:[ 4 11 ]:
+l2:[  ]:
+l2:[ 33 ]:
+l2:[ 33 { 1 to 4 by 1 } ]:
+l2:[ 33 { 1 to 4 by 1 } 34 ]:
+l2:[ 33 { 1 to 4 by 1 } 34 [ 4 11 ] ]:
+l2:[ 33 { 1 to 4 by 1 } 34 [ 4 11 ] 35 ]:
+l3:[  ]:
+l3:[ [  ] ]:
+l3:[ [  ] 45 ]:
+l2:[ 33 { 1 to 4 by 1 } 34 [ 4 11 ] 35 { 1 to 4 by -1 } [ [  ] 45 ] < 0, 1 to 10 > ]:
+l3:[ [  ] 45 ]:
+l4:[  ]:
+l5:[ 87 [ [  ] 45 ] 88 [ 33 { 1 to 4 by 1 } 34 [ 4 11 ] 35 { 1 to 4 by -1 } [ [  ] 45 ] < 0, 1 to 10 > ] 89 [ [ { 1 to 4 by 1 } [ < 2, 2 to 10 > ] ] { 1 to 4 by -1 } ] 90 ]:
+l6:[ < 2, 2 to 10 > ]:
+l7:[ { 1 to 4 by 1 } [ < 2, 2 to 10 > ] ]:
+l8:[ [ { 1 to 4 by 1 } [ < 2, 2 to 10 > ] ] { 1 to 4 by -1 } ]:
+l1:[ 4 11 ]:
+p1:[ 4 11 ]:
+l2:[ 33 { 1 to 4 by 1 } 34 [ 4 11 ] 35 { 1 to 4 by -1 } [ [  ] 45 ] < 0, 1 to 10 > ]:
+p1:[ 33 1 2 3 4 34 [ 4 11 ] 35 [ [  ] 45 ] 0 1 1 2 3 5 8 ]:
+p1:[ 2 2 4 6 10 ]:
+p1:[ 1 2 3 4 [ 2 2 4 6 10 ] ]:
+p1:[ [ 1 2 3 4 [ 2 2 4 6 10 ] ] ]:
+p1:[ 87 [ [  ] 45 ] 88 [ 33 1 2 3 4 34 [ 4 11 ] 35 [ [  ] 45 ] 0 1 1 2 3 5 8 ] 89 [ [ 1 2 3 4 [ 2 2 4 6 10 ] ] ] 90 ]:
+p1:[ 87 [ [  ] 45 ] 88 [ 33 1 2 3 4 34 [ 4 11 ] 35 [ [  ] 45 ] 0 1 1 2 3 5 8 ] 89 [ [ 1 2 3 4 [ 2 2 4 6 10 ] ] ] 90 ]:
+l1:[ 4 11 ]:
+p2:[ 4 11 ]:
+l2:[ 33 { 1 to 4 by 1 } 34 [ 4 11 ] 35 { 1 to 4 by -1 } [ [  ] 45 ] < 0, 1 to 10 > ]:
+p2:[ 33 { 1 to 4 by 1 } 34 4 11 35 { 1 to 4 by -1 } 45 < 0, 1 to 10 > ]:
+p2:[ < 2, 2 to 10 > ]:
+p2:[ { 1 to 4 by 1 } < 2, 2 to 10 > ]:
+p2:[ { 1 to 4 by 1 } < 2, 2 to 10 > { 1 to 4 by -1 } ]:
+p2:[ 87 45 88 33 { 1 to 4 by 1 } 34 4 11 35 { 1 to 4 by -1 } 45 < 0, 1 to 10 > 89 { 1 to 4 by 1 } < 2, 2 to 10 > { 1 to 4 by -1 } 90 ]:
+p2:[ 87 45 88 33 { 1 to 4 by 1 } 34 4 11 35 { 1 to 4 by -1 } 45 < 0, 1 to 10 > 89 { 1 to 4 by 1 } < 2, 2 to 10 > { 1 to 4 by -1 } 90 ]:
+l1:[ 4 11 ]:
+p3:[ 4 11 ]:
+l2:[ 33 { 1 to 4 by 1 } 34 [ 4 11 ] 35 { 1 to 4 by -1 } [ [  ] 45 ] < 0, 1 to 10 > ]:
+p3:[ 33 1 2 3 4 34 4 11 35 45 0 1 1 2 3 5 8 ]:
+p3:[ 2 2 4 6 10 ]:
+p3:[ 1 2 3 4 2 2 4 6 10 ]:
+p3:[ 1 2 3 4 2 2 4 6 10 ]:
+p3:[ 87 45 88 33 1 2 3 4 34 4 11 35 45 0 1 1 2 3 5 8 89 1 2 3 4 2 2 4 6 10 90 ]:
+l1:[ 4 11 ]:
+p3:[ 4 11 ]:
+l2:[ 33 { 1 to 4 by 1 } 34 [ 4 11 ] 35 { 1 to 4 by -1 } [ [  ] 45 ] < 0, 1 to 10 > ]:
+p3:[ 33 1 2 3 4 34 4 11 35 45 0 1 1 2 3 5 8 ]:
+p3:[ 33 1 2 3 4 34 4 11 35 45 0 1 1 2 3 5 8 ]:
+p3:[ 2 2 4 6 10 ]:
+p3:[ 1 2 3 4 2 2 4 6 10 ]:
+p3:[ 1 2 3 4 2 2 4 6 10 ]:
+p3:[ 87 45 88 33 1 2 3 4 34 4 11 35 45 0 1 1 2 3 5 8 89 1 2 3 4 2 2 4 6 10 90 ]:

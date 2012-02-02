@@ -1,0 +1,5 @@
+test of calling ForIt too many times
+fi.next():3:
+fi.next():5:
+fi.next():7:
+ForIt called past end

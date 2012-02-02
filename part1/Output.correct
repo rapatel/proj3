@@ -1,0 +1,90 @@
+r1:{ 1 to 4 by 1 }:
+(Seq)r1 instanceof For:true:
+(Seq)r1 instanceof Fib:false:
+r2:{ 1 to 4 by -1 }:
+(Seq)r2 instanceof For:true:
+(Seq)r2 instanceof Fib:false:
+r3:{ 21 to 23 by 1 }:
+(Seq)r3 instanceof For:true:
+(Seq)r3 instanceof Fib:false:
+r4:{ 25 to 21 by -2 }:
+(Seq)r4 instanceof For:true:
+(Seq)r4 instanceof Fib:false:
+r5:{ 21 to 26 by 2 }:
+(Seq)r5 instanceof For:true:
+(Seq)r5 instanceof Fib:false:
+r6:{ 28 to 26 by 0 }:
+(Seq)r6 instanceof For:true:
+(Seq)r6 instanceof Fib:false:
+r7:{ 28 to 31 by 1 }:
+(Seq)r7 instanceof For:true:
+(Seq)r7 instanceof Fib:false:
+r8:{ 31 to 28 by -1 }:
+(Seq)r8 instanceof For:true:
+(Seq)r8 instanceof Fib:false:
+b1:< 2, 3 to 10 >:
+(Seq)b1 instanceof For:false:
+(Seq)b1 instanceof Fib:true:
+b2:< 0, 1 to 10 >:
+(Seq)b2 instanceof For:false:
+(Seq)b2 instanceof Fib:true:
+b3:< 2, 2 to 10 >:
+(Seq)b3 instanceof For:false:
+(Seq)b3 instanceof Fib:true:
+b4:< 2, 2 to 0 >:
+(Seq)b4 instanceof For:false:
+(Seq)b4 instanceof Fib:true:
+b5:< 0, -1 to -10 >:
+(Seq)b5 instanceof For:false:
+(Seq)b5 instanceof Fib:true:
+b6:< -2, -3 to -10 >:
+(Seq)b6 instanceof For:false:
+(Seq)b6 instanceof Fib:true:
+r1:{ 1 to 4 by 1 }:
+(Seq)r1 instanceof For:true:
+(Seq)r1 instanceof Fib:false:
+r2:{ 1 to 4 by -1 }:
+(Seq)r2 instanceof For:true:
+(Seq)r2 instanceof Fib:false:
+r3:{ 21 to 23 by 1 }:
+(Seq)r3 instanceof For:true:
+(Seq)r3 instanceof Fib:false:
+r4:{ 25 to 21 by -2 }:
+(Seq)r4 instanceof For:true:
+(Seq)r4 instanceof Fib:false:
+r5:{ 21 to 26 by 2 }:
+(Seq)r5 instanceof For:true:
+(Seq)r5 instanceof Fib:false:
+r6:{ 28 to 26 by 0 }:
+(Seq)r6 instanceof For:true:
+(Seq)r6 instanceof Fib:false:
+r7:{ 28 to 31 by 1 }:
+(Seq)r7 instanceof For:true:
+(Seq)r7 instanceof Fib:false:
+r8:{ 31 to 28 by -1 }:
+(Seq)r8 instanceof For:true:
+(Seq)r8 instanceof Fib:false:
+b1:< 2, 3 to 10 >:
+(Seq)b1 instanceof For:false:
+(Seq)b1 instanceof Fib:true:
+b2:< 0, 1 to 10 >:
+(Seq)b2 instanceof For:false:
+(Seq)b2 instanceof Fib:true:
+b3:< 2, 2 to 10 >:
+(Seq)b3 instanceof For:false:
+(Seq)b3 instanceof Fib:true:
+b4:< 2, 2 to 0 >:
+(Seq)b4 instanceof For:false:
+(Seq)b4 instanceof Fib:true:
+b5:< 0, -1 to -10 >:
+(Seq)b5 instanceof For:false:
+(Seq)b5 instanceof Fib:true:
+b6:< -2, -3 to -10 >:
+(Seq)b6 instanceof For:false:
+(Seq)b6 instanceof Fib:true:
+x:< 2, 2 to 10 >:
+(Seq)x instanceof For:false:
+(Seq)x instanceof Fib:true:
+x:{ 25 to 21 by -2 }:
+(Seq)x instanceof For:true:
+(Seq)x instanceof Fib:false:

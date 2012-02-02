@@ -1,0 +1,7 @@
+test of calling FibIt too many times
+fi.next():2:
+fi.next():2:
+fi.next():4:
+fi.next():6:
+fi.next():10:
+FibIt called past end

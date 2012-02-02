@@ -1,0 +1,126 @@
+created 14 Seq
+created 8 For
+created 6 Fib
+r1:{ 1 to 4 by 1 }:
+(Seq)r1 instanceof For:true:
+(Seq)r1 instanceof Fib:false:
+r1.upperBound():4:
+r2:{ 1 to 4 by -1 }:
+(Seq)r2 instanceof For:true:
+(Seq)r2 instanceof Fib:false:
+r2.upperBound():1:
+r3:{ 21 to 23 by 1 }:
+(Seq)r3 instanceof For:true:
+(Seq)r3 instanceof Fib:false:
+r3.upperBound():23:
+r4:{ 25 to 21 by -2 }:
+(Seq)r4 instanceof For:true:
+(Seq)r4 instanceof Fib:false:
+r4.upperBound():25:
+r5:{ 21 to 26 by 2 }:
+(Seq)r5 instanceof For:true:
+(Seq)r5 instanceof Fib:false:
+r5.upperBound():26:
+r6:{ 28 to 26 by 0 }:
+(Seq)r6 instanceof For:true:
+(Seq)r6 instanceof Fib:false:
+r6.upperBound():28:
+r7:{ 28 to 31 by 1 }:
+(Seq)r7 instanceof For:true:
+(Seq)r7 instanceof Fib:false:
+r7.upperBound():31:
+r8:{ 31 to 28 by -1 }:
+(Seq)r8 instanceof For:true:
+(Seq)r8 instanceof Fib:false:
+r8.upperBound():31:
+b1:< 2, 3 to 10 >:
+(Seq)b1 instanceof For:false:
+(Seq)b1 instanceof Fib:true:
+b1.upperBound():10:
+b2:< 0, 1 to 10 >:
+(Seq)b2 instanceof For:false:
+(Seq)b2 instanceof Fib:true:
+b2.upperBound():10:
+b3:< 2, 2 to 10 >:
+(Seq)b3 instanceof For:false:
+(Seq)b3 instanceof Fib:true:
+b3.upperBound():10:
+b4:< 2, 2 to 0 >:
+(Seq)b4 instanceof For:false:
+(Seq)b4 instanceof Fib:true:
+b4.upperBound():0:
+b5:< 0, -1 to -10 >:
+(Seq)b5 instanceof For:false:
+(Seq)b5 instanceof Fib:true:
+b5.upperBound():-10:
+b6:< -2, -3 to -10 >:
+(Seq)b6 instanceof For:false:
+(Seq)b6 instanceof Fib:true:
+b6.upperBound():-10:
+r1:{ 1 to 4 by 1 }:
+(Seq)r1 instanceof For:true:
+(Seq)r1 instanceof Fib:false:
+r1.upperBound():4:
+r2:{ 1 to 4 by -1 }:
+(Seq)r2 instanceof For:true:
+(Seq)r2 instanceof Fib:false:
+r2.upperBound():1:
+r3:{ 21 to 23 by 1 }:
+(Seq)r3 instanceof For:true:
+(Seq)r3 instanceof Fib:false:
+r3.upperBound():23:
+r4:{ 25 to 21 by -2 }:
+(Seq)r4 instanceof For:true:
+(Seq)r4 instanceof Fib:false:
+r4.upperBound():25:
+r5:{ 21 to 26 by 2 }:
+(Seq)r5 instanceof For:true:
+(Seq)r5 instanceof Fib:false:
+r5.upperBound():26:
+r6:{ 28 to 26 by 0 }:
+(Seq)r6 instanceof For:true:
+(Seq)r6 instanceof Fib:false:
+r6.upperBound():28:
+r7:{ 28 to 31 by 1 }:
+(Seq)r7 instanceof For:true:
+(Seq)r7 instanceof Fib:false:
+r7.upperBound():31:
+r8:{ 31 to 28 by -1 }:
+(Seq)r8 instanceof For:true:
+(Seq)r8 instanceof Fib:false:
+r8.upperBound():31:
+b1:< 2, 3 to 10 >:
+(Seq)b1 instanceof For:false:
+(Seq)b1 instanceof Fib:true:
+b1.upperBound():10:
+b2:< 0, 1 to 10 >:
+(Seq)b2 instanceof For:false:
+(Seq)b2 instanceof Fib:true:
+b2.upperBound():10:
+b3:< 2, 2 to 10 >:
+(Seq)b3 instanceof For:false:
+(Seq)b3 instanceof Fib:true:
+b3.upperBound():10:
+b4:< 2, 2 to 0 >:
+(Seq)b4 instanceof For:false:
+(Seq)b4 instanceof Fib:true:
+b4.upperBound():0:
+b5:< 0, -1 to -10 >:
+(Seq)b5 instanceof For:false:
+(Seq)b5 instanceof Fib:true:
+b5.upperBound():-10:
+b6:< -2, -3 to -10 >:
+(Seq)b6 instanceof For:false:
+(Seq)b6 instanceof Fib:true:
+b6.upperBound():-10:
+x:< 2, 2 to 10 >:
+(Seq)x instanceof For:false:
+(Seq)x instanceof Fib:true:
+x.upperBound():10:
+x:{ 25 to 21 by -2 }:
+(Seq)x instanceof For:true:
+(Seq)x instanceof Fib:false:
+x.upperBound():25:
+created 14 Seq
+created 8 For
+created 6 Fib
