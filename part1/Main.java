@@ -1,5 +1,4 @@
 
-
 /* *** This file is given as part of the programming assignment. *** */
 
 public class Main {
@@ -7,7 +6,7 @@ public class Main {
     public static void main(String [] args) {
 
         // instantiate some elements
- For r1 = new For(1, 4, 1);
+    	For r1 = new For(1, 4, 1);
         For r2 = new For(1, 4, -1);
         For r3 = new For(21, 23, 1);
         For r4 = new For(25, 21, -2);
