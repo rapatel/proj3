@@ -33,10 +33,10 @@ public class ForIt implements SeqIt {
 
     public int next() {
         if (step > 0 && current > last) {
-            System.err.println("No elements are left in the 'For' sequence.");
+            System.err.println("ForIt called past end");
             System.exit(1);
         } else if (step < 0 && current < last) {
-            System.err.println("No elements are left in the 'For' sequence.");
+            System.err.println("ForIt called past end");
             System.exit(1);
         }
         int retVal = current;

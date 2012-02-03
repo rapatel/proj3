@@ -45,7 +45,7 @@ public class FibIt implements SeqIt {
             f2 = sum;
             sum = f1 + f2;
         } else {
-            System.err.println("No elements are left in the 'For' sequence");
+            System.err.println("FibIt called past end");
             System.exit(1);
         }
         index++;
