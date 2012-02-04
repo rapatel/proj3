@@ -30,8 +30,7 @@ public class AList {
         for (Object o : this.ObjList) {
             if (o instanceof Seq) {
                 SeqIt it = ((Seq) o).createSeqIt();
-                int count = 0;
-                while (++count <= 10 && it.hasNext()) {
+                while (it.hasNext()) {
                     eList.ObjList.add(new Integer(it.next()));
                 }
             } else if (o instanceof AList) {

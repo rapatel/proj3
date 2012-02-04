@@ -25,8 +25,7 @@ public abstract class Seq implements ExpFlat {
 
     public void expand(AList eList) {
         SeqIt it = this.createSeqIt();
-        int count = 0;
-        while (++count <= 10 && it.hasNext()) {
+        while (it.hasNext()) {
             eList.ObjList.add(new MyInteger(it.next()));
         }
     }
