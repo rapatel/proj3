@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 
 public class AList implements ExpFlat {
-    // members
+    // ArrayList can only hold objects of classes
+    // that implement ExpFlat
     protected ArrayList<ExpFlat> ObjList;
 
     // Constructor
@@ -25,6 +26,7 @@ public class AList implements ExpFlat {
         ObjList.add(new MyInteger(i));
     }
 
+    // expands lists (Seq, AList, Int)
     public AList expand() {
         AList eList = new AList();
         for (Object o : this.ObjList) {
@@ -33,6 +35,7 @@ public class AList implements ExpFlat {
         return eList;
     }
 
+    // overloaded expand method
     public void expand(AList tList) {
         AList eList = new AList();
         for (Object o : this.ObjList) {
@@ -41,6 +44,7 @@ public class AList implements ExpFlat {
         tList.ObjList.add(eList);
     }
 
+    // Flatten AList
     public AList flatten() {
         AList eList = new AList();
         for (Object o : this.ObjList) {

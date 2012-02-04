@@ -25,6 +25,7 @@ public class AList {
         ObjList.add(new Integer(i));
     }
 
+    // expands an AList recursively
     public AList expand() {
         AList eList = new AList();
         for (Object o : this.ObjList) {
@@ -42,6 +43,7 @@ public class AList {
         return eList;
     }
 
+    // flatten AList recursively
     public AList flatten() {
         AList eList = new AList();
 
