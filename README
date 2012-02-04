@@ -20,3 +20,4 @@ part7: Works on all tests.
 part8: Works on all tests.
 
 Overall: Any comment/discussion related to this HW.
+  For part 8, I created a new class called "MyInteger" which took care of adding 'int' to the AList and I had MyInteger, Seq, and AList classes all implement the new interface I created called 'ExpFlat'. All this was used for the dynamic binding used for expanding and flattening the lists.
